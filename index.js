@@ -77,11 +77,11 @@ function customizePage(elementTag, variants_index) {
 	}
 	else if (elementTag.tagName == "p" && elementTag.getAttribute("id") == "description") {
 		if (variants_index == 0) {
-			elementTag.setInnerContent("Hello! This is my GitHub profile. You can also visit my personal website with the other variant.(FYI: I set cookie to expire in 60 seconds!)\
+			elementTag.setInnerContent("Hello! This is my GitHub profile. You can also visit my personal website with the other variant webpage.(FYI: I set cookie to expire in 60 seconds!)\
 				Thank you and stay safe!")
 		}
 		else {
-			elementTag.setInnerContent("Hello! This is my personal website. You can also visit my GitHub profile with the other variant.(FYI: I set cookie to expire in 60 seconds!)\
+			elementTag.setInnerContent("Hello! This is my personal website. You can also visit my GitHub profile with the other variant webpage.(FYI: I set cookie to expire in 60 seconds!)\
 				Thank you and stay safe!")
 		}
 	}
